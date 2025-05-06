@@ -122,7 +122,7 @@ const sampleProperties = [
       bathrooms: 1,
       area: 950,
       location: "Arts District, Los Angeles",
-      image: "https://www.pexels.com/photo/view-of-a-loft-style-living-room-with-a-brown-leather-sofa-20337840/?height=400&width=600"
+      image: "assets/images (18).jpeg?height=400&width=600"
     },
     {
       id: 10,
@@ -148,7 +148,7 @@ const sampleProperties = [
       listingType: "sale",
       area: 3000,
       location: "Business District, Seattle",
-      image: "https://www.pexels.com/photo/high-rise-buildings-during-night-time-4270292/?height=400&width=600"
+      image: "assets/images (19).jpeg?height=400&width=600"
     },
     {
       id: 12,
@@ -170,7 +170,7 @@ const sampleProperties = [
       listingType: "sale",
       area: 12000,
       location: "Industrial Park, Houston",
-      image: "https://www.freepik.com/free-ai-image/photorealistic-scene-with-warehouse-logistics-operations_186748568.htm#fromView=keyword&page=1&position=4&uuid=63073515-d482-4749-92aa-55d708ac04a2&query=Warehouse+Loading+Docks?height=400&width=600"
+      image: "assets/images (20).jpeg?height=400&width=600"
     },
     {
       id: 14,
@@ -194,7 +194,7 @@ const sampleProperties = [
       listingType: "sale",
       area: 8500,
       location: "Hillside Estates, Denver",
-      image: "/placeholder.svg?height=400&width=600"
+      image: "assets/images (21).jpeg?height=400&width=600"
     },
     {
       id: 16,
@@ -205,7 +205,7 @@ const sampleProperties = [
       listingType: "sale",
       area: 43560, // 1 acre
       location: "Highway Junction, Phoenix",
-      image: "/placeholder.svg?height=400&width=600"
+      image: "assets/images (22).jpeg?height=400&width=600"
     },
     {
       id: 17,
@@ -216,7 +216,7 @@ const sampleProperties = [
       listingType: "sale",
       area: 217800, // 5 acres
       location: "Fertile Valley, Oregon",
-      image: "/placeholder.svg?height=400&width=600"
+      image: "assets/images (23).jpeg?height=400&width=600"
     },
     {
       id: 18,
