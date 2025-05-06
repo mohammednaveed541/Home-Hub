@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Properties - HomeHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-img.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="neon-text">Home<span class="highlight">Hub</span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="buy.html" class="active">Buy</a></li>
+                <li><a href="sell.html">Sell</a></li>
+                <li><a href="rent.html">Rent</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h1>Buy <span class="neon-text">Properties</span></h1>
+        <p>Find your dream home among our listings</p>
+    </section>
+
+    <section class="filters">
+        <div class="filter-container">
+            <select id="property-type">
+                <option value="">Property Type</option>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            <select id="price-range">
+                <option value="">Price Range</option>
+                <option value="0-100000">$0 - $100,000</option>
+                <option value="100000-300000">$100,000 - $300,000</option>
+                <option value="300000-500000">$300,000 - $500,000</option>
+                <option value="500000-750000">$500,000 - $750,000</option>
+                <option value="750000-1000000">$750,000 - $1,000,000</option>
+                <option value="1000000+">$1,000,000+</option>
+            </select>
+            <select id="bedrooms">
+                <option value="">Bedrooms</option>
+                <option value="1">1+ Bedrooms</option>
+                <option value="2">2+ Bedrooms</option>
+                <option value="3">3+ Bedrooms</option>
+                <option value="4">4+ Bedrooms</option>
+                <option value="5">5+ Bedrooms</option>
+            </select>
+            <select id="bathrooms">
+                <option value="">Bathrooms</option>
+                <option value="1">1+ Bathrooms</option>
+                <option value="2">2+ Bathrooms</option>
+                <option value="3">3+ Bathrooms</option>
+                <option value="4">4+ Bathrooms</option>
+            </select>
+            <button id="filter-btn" class="filter-btn">Apply Filters</button>
+        </div>
+    </section>
+
+    <section class="properties">
+        <div class="property-grid" id="buy-properties">
+            <!-- Properties will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="neon-text">Home<span class="highlight">Hub</span></span>
+                <p>Your trusted real estate marketplace</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="buy.html">Buy</a></li>
+                    <li><a href="sell.html">Sell</a></li>
+                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@homehub.com</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 HomeHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="utils.js"></script>
+    <script type="module" src="buy.js"></script>
+</body>
+</html>
