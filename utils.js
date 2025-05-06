@@ -39,7 +39,8 @@ const sampleProperties = [
       bathrooms: 1,
       area: 950,
       location: "Arts District, Los Angeles",
-      image: "assets/property-6.jpg?height=400&width=600"
+      image: "assets/property-6.jpg?height=400&width=600",
+        featured: true
 
     },
     {
@@ -67,7 +68,8 @@ const sampleProperties = [
       bathrooms: 1,
       area: 1100,
       location: "Lakeside, Michigan",
-      image: "https://source.unsplash.com/600x400/?house,modern"
+      image: "assets/images (25).jpeg?height=400&width=600",
+        featured: true
     },
     
     // Apartments
@@ -82,7 +84,8 @@ const sampleProperties = [
       bathrooms: 2,
       area: 1200,
       location: "Downtown, New York",
-      image: "assets/property-1.jpg?height=400&width=600"
+      image: "assets/property-1.jpg?height=400&width=600",
+        featured: true
     },
     {
       id: 7,
@@ -109,7 +112,8 @@ const sampleProperties = [
       bathrooms: 1,
       area: 600,
       location: "Old Town, Chicago",
-      image: "assets/property-4.jpg?height=400&width=600"
+      image: "assets/property-4.jpg?height=400&width=600",
+        featured: true
     },
     {
       id: 9,
@@ -135,7 +139,8 @@ const sampleProperties = [
       bathrooms: 2,
       area: 1100,
       location: "Financial District, Chicago",
-      image: "https://pxhere.com/en/photo/1043708?height=400&width=600"
+      image: "assets/images (26).jpeg?height=400&width=600",
+        featured: true
     },
     
     // Commercial
@@ -159,7 +164,7 @@ const sampleProperties = [
       listingType: "rent",
       area: 2500,
       location: "Mall Avenue, Dallas",
-      image: "https://www.pexels.com/photo/empty-escalators-inside-building-54581/?height=400&width=600"
+      image: "assets/images (24).jpeg?height=400&width=600"
     },
     {
       id: 13,
@@ -170,7 +175,8 @@ const sampleProperties = [
       listingType: "sale",
       area: 12000,
       location: "Industrial Park, Houston",
-      image: "assets/images (20).jpeg?height=400&width=600"
+      image: "assets/images (20).jpeg?height=400&width=600",
+        featured: true
     },
     {
       id: 14,
@@ -181,7 +187,7 @@ const sampleProperties = [
       listingType: "rent",
       area: 1800,
       location: "Culinary District, Portland",
-      image: "https://www.pexels.com/photo/kitchen-bar-interior-design-of-modern-business-331107/?height=400&width=600"
+      image: "assets/images (27).jpeg?height=400&width=600"
     },
     
     // Land
@@ -205,7 +211,8 @@ const sampleProperties = [
       listingType: "sale",
       area: 43560, // 1 acre
       location: "Highway Junction, Phoenix",
-      image: "assets/images (22).jpeg?height=400&width=600"
+      image: "assets/images (22).jpeg?height=400&width=600",
+        featured: true
     },
     {
       id: 17,
@@ -216,7 +223,8 @@ const sampleProperties = [
       listingType: "sale",
       area: 217800, // 5 acres
       location: "Fertile Valley, Oregon",
-      image: "assets/images (23).jpeg?height=400&width=600"
+      image: "assets/images (23).jpeg?height=400&width=600",
+        featured: true
     },
     {
       id: 18,
